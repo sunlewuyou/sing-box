@@ -66,8 +66,8 @@ func buildAndroid() {
 		"bind",
 		"-v",
 		"-androidapi", "21",
-		"-javapkg=io.nekohasekai",
-		"-libname=box",
+		"-javapkg=tk.dcedu",
+		"-libname=tangdou",
 	}
 	if !debugEnabled {
 		args = append(args, sharedFlags...)
